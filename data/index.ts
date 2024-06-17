@@ -77,7 +77,7 @@ export const projects = [
     img: "/p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "Post",
-    web: "https://www.linkedin.com/posts/anmol-mishra-a5614427b_webdevelopment-3ddesign-responsivedesign-activity-7207250979036045312-ly9L?utm_source=share&utm_medium=member_desktop",
+    web: "https://iphone.mishraanmol.com/",
   }, 
   {
     id: 1,
