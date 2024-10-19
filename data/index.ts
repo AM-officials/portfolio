@@ -80,6 +80,15 @@ export const projects = [
     web: "https://iphone.mishraanmol.com/",
   }, 
   {
+    id: 3,
+    title: "Landing cum waitlist page",
+    des: "Designed and developed a stunning landing and waitlist page",
+    img: "/p5.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "Live Site",
+    web: "https://www.jvic.in/",
+  },
+  {
     id: 1,
     title: "Interior Designer Landing Page",
     des: "Created a minimalistic HTML CSS landing page on client's request",
