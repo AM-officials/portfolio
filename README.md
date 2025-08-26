@@ -1,49 +1,85 @@
 <div align="center">
-  <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
-    </a>
-  <br />
-
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
-    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
-  <h3 align="center">A Modern Next.js Portfolio</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <h1>Personal Portfolio</h1>
+  <p>Showcasing selected work, experiments, and learning journeys in modern web development.</p>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+> Clean, fast, minimal – a space to iterate publicly.
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Code to Copy](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+## Table of Contents
+1. Project Overview
+2. Tech Stack
+3. Features & Sections
+4. Adding / Editing Projects
+5. Running Locally
+6. Roadmap / Ideas
+7. License & Contact
 
-## 🚨 Tutorial
+## 1. Project Overview
+This portfolio is built as a performant, component-first Next.js application. It focuses on subtle motion, 3D accents, and a flexible data layer (`data/index.ts`) so content can be updated without digging through component logic. Recently added: a card for **Siksha AI**, my in-progress gamified learning platform.
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+## 2. Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion (micro-interactions)
+- Three.js / React Three Fiber (visual/3D elements)
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+## 3. Features & Sections
+- Hero with spotlight & animated background shapes.
+- Bento-style grid highlighting mindset, current focus, and ethos.
+- Dynamic Projects section (now includes Siksha AI).
+- Testimonials & Experience blocks for credibility.
+- Animated canvases / lightweight 3D elements.
+- Fully responsive layout.
 
-<a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+### Highlight: Siksha AI Project Card
+Siksha AI is an AI-powered education platform featuring:
+- Multilingual mentor chat (English / Hindi / Odia)
+- AI-generated notes & adaptive flashcards
+- Parental analytics dashboard (study sessions, content generation, activity summaries)
+- Gamification: XP, streaks, achievements, quests
+- Classroom & role-based views (student / parent / school)
+Live (WIP): https://siskshaai.vercel.app/
 
-## <a name="introduction">🤖 Introduction</a>
+## 4. Adding / Editing Projects
+Project cards are managed in `data/index.ts` under the `projects` array:
+```ts
+export const projects = [
+  {
+    id: 3,
+    title: "Siksha AI – Gamified Learning Platform",
+    des: "AI-powered education platform...",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "Live Site",
+    web: "https://siskshaai.vercel.app/",
+  }
+]
+```
+Replace or append objects as needed. Ensure image assets exist in `public/`.
 
-Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
+## 5. Running Locally
+```bash
+git clone <repo-url>
+cd portfolio
+npm install
+npm run dev
+```
+Then visit http://localhost:3000
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
+## 6. Roadmap / Ideas
+- Enhanced accessibility pass (skip links, focus rings, prefers-reduced-motion)
+- Light/Dark theme toggle
+- MDX-powered blog / writing section
+- Automatic Open Graph image generation per project
+- Deployment previews & CI linting hooks
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+## 7. License & Contact
+No formal license yet (all rights reserved). For collaboration or inquiries:
+- LinkedIn: https://www.linkedin.com/in/anmol-mishra-a5614427b/
+
+---
+Crafted with curiosity and iteration.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 

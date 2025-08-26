@@ -70,7 +70,7 @@ export const gridItems = [
 ];
 
 export const projects = [
-   {
+  {
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
@@ -78,15 +78,15 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "Live Site",
     web: "https://iphone.mishraanmol.com/",
-  }, 
+  },
   {
     id: 3,
-    title: "Landing cum waitlist page",
-    des: "Designed and developed a stunning landing and waitlist page",
-    img: "/p5.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "Siksha AI – Gamified Learning Platform",
+    des: "AI-powered education platform: multilingual mentor chat (English/Hindi/Odia), parental analytics, adaptive flashcards, AI-generated notes, achievements & streak tracking.",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "Live Site",
-    web: "https://www.jvic.in/",
+    web: "https://siskshaai.vercel.app/",
   },
   {
     id: 1,
